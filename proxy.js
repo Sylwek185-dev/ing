@@ -33,5 +33,5 @@ app.post('/proxy/payment', async (req, res) => {
 });
 
 app.listen(port, () => {
-	console.log(`Proxy nasłuchuje na http://localhost:${port}`);
+	console.log(`Proxy naschuje na http://localhost:${port}`);
 });
