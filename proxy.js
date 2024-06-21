@@ -2,7 +2,7 @@ import express from 'express';
 import fetch from 'node-fetch';
 
 const app = express();
-const port = 3000;
+const port = 3002;
 
 app.use(express.json());
 
@@ -33,5 +33,5 @@ app.post('/proxy/payment', async (req, res) => {
 });
 
 app.listen(port, () => {
-	console.log(`Proźy nasłuchuje na http://localhost:${port}`);
+	console.log(`Proxy nasłuchuje na http://localhost:${port}`);
 });
