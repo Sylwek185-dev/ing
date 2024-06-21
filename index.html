@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Płatności iMoje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">Podaj dane do płatności</h1>
+        <form id="payment-form">
+            <input type="text" id="amount" name="amount" placeholder="Kwota" required>
+            <input type="text" id="firstName" name="firstName" placeholder="Imię" required>
+            <input type="text" id="lastName" name="lastName" placeholder="Nazwisko" required>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+            <input type="tel" id="phone" name="phone" placeholder="Telefon" required>
+            <button type="submit">Zapłać</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
